@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(35,35,35,0.65), rgba(35,35,35,0.65)),
+    url(images/pizzabg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 100%;
+   /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 0 10px;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    padding: 20px;
+    border: 1px solid;
+    background-color: burlywood;
+    border-radius: 8px;
+    text-shadow:#fff ;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    color: #fff;
+    text-align: right;
+}
+.content h1{
+    font-size: 40px;
+    font-family: serif;
+}
+.content p{
+    margin: 30px auto;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+}
+button{
+    width: 150px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    text-align: center;
+    border: 2px solid #d43e55;
+    font-weight: bold;
+    background: transparent;
+    color: rgb(148, 144, 148);
+}
+.btn-order{
+    background-color: #d43e55;
+}
+button:hover{
+    background-color: #d43e55;
+    box-shadow: -1px 2px 10px 1px;
+}
+/*Content style*/
+.main-content{
+    background-color: beige;
+    width: 100%;
+}
+.main-content h1{
+    text-align: center;
+    padding: 30px 0 0;
+    font-family: sans-serif;
+    font-size: 2.2em;
+}
+.main-content hr{
+    width: 10%;
+    border-top: 3px solid rgb(90, 42, 9);
+    margin: auto;
+}
+.content-section{
+    height: 600px;
+    padding:0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+}
+.content-section .col{
+    text-align: center;
+    margin: 20px;
+}
+.pic{
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.content-section h3{
+    margin: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+.content-section p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*Footer Section*/
+.footer{
+
+    width: 100vw;
+    background-color: rgb(49, 49, 48);
+    color: rgb(238, 238, 238);
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer div{
+    text-align: center;
+
+}
+.footer div h3{
+    margin-bottom : 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.footer .col-1 a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.footer .col-2{
+    flex-grow: 0.5;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+}
+form button{
+    padding: 10px 30px;
+    border: 2px solid;
+    border-radius: 30px;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+}
+.social-links{
+    margin-top: 30px;
+}
+.social-links i{
+    font-size: 20px;
+    margin: 0 10px 0;
+}
+
